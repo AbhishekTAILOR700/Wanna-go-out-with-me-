@@ -1,0 +1,160 @@
+@font-face {
+    font-family: CheriFont;
+    src: url(CHERI___.TTF);
+}
+  
+h1 {
+    font-size: 4rem;
+    font-family: CheriFont;
+    color: #a94064;
+    display: block;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+/* **************************************************************** */
+
+body{
+    height: 96vh;
+    text-align: center;
+    color: #a94064;
+    font-family: CheriFont;
+    background-color : #861657;
+    background :  linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background-color: #edadff; */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.theGif{
+    /* display: block; */
+    padding: 10px;
+    height: 350px;
+}
+
+
+.gifContainer{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    /* justify-content: center;
+    align-content: center; */
+}
+
+/* ************************************BUTTON******************************* */
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    border-color: #861657;
+    /* color: #a94064; */
+    font-family: CheriFont;
+    /* font-family: Arial; */
+    color: #ffffff;
+    font-size: 20px;
+    background: #a94064;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+    margin: 10px;
+  }
+
+  #noButton {
+    position: absolute;
+    /* margin-left: 150px; */
+    transition: .5s;
+}
+
+#yesButton{
+    position: relative;
+    right: 100px;
+}
+
+#yesButton:hover{
+    cursor:pointer;
+}
+
+.cutiecutie{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+
+/* .yescont{
+    height: 96vh;
+} */
+
+
+
+.footer{
+    display: block;
+    margin: 0 0 20px 0;
+    justify-self: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+/* ANCHOR */
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    /* color: rgb(201, 189, 189); */
+    background-color: transparent;
+    text-decoration: underline;
+
+
+    /* font-size: 80px; */
+    font-size: 1.2rem;
+    transition: 0.5s;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+  
+  /* .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  } */
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #861657, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
